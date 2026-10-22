@@ -8,7 +8,7 @@
           <hr>                  
           <ul class="mynav nav nav-pills flex-column">
             <li class="nav-item mb-3 mt-2">
-              <a href="" class="text-decoration-none text-white">
+              <a href="home.php" class="text-decoration-none text-white">
                 <i class="bi bi-house-fill me-2"></i>
                 Home
               </a>
@@ -21,25 +21,25 @@
             </li>
             <!-- Add more menus -->
             <li class="nav-item mb-3">
-    <a href="" class="text-decoration-none text-white">
+    <a href="products.php" class="text-decoration-none text-white">
         <i class="bi bi-box me-2"></i>
         Products
     </a>
 </li>
 <li class="nav-item mb-3">
-    <a href="" class="text-decoration-none text-white">
+    <a href="customers.php" class="text-decoration-none text-white">
         <i class="bi bi-people me-2"></i>
         Customers
     </a>
 </li>
 <li class="nav-item mb-3">
-    <a href="" class="text-decoration-none text-white">
+    <a href="staffs.php" class="text-decoration-none text-white">
         <i class="bi bi-person-badge me-2"></i>
         Staffs
     </a>
 </li>
 <li class="nav-item mb-3">
-    <a href="" class="text-decoration-none text-white">
+    <a href="orders.php" class="text-decoration-none text-white">
         <i class="bi bi-cart me-2"></i>
         Orders
     </a>

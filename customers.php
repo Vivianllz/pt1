@@ -46,7 +46,7 @@ ob_start();
                     </select>
                 </div>
                 <div class="col-md-3">
-                    <label for="customer_phone" class="form-label">Phone <span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="customer_phone" class="form-label">Phone Number<span class="text-danger" aria-hidden="true">*</span></label>
                     <input name="customer_phone" id="customer_phone" class="form-control" placeholder="Enter Phone Number" required>
                 </div>
  

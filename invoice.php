@@ -10,7 +10,7 @@ ob_start();
                 <p class="text-muted mb-0">Order #O001</p>
             </div>
             <div class="col-auto">
-                <button type="button" class="btn btn-primary"><i class="bi bi-printer me-1"></i>Print</button>
+                <button type="button" class="btn btn-primary" onclick="window.print()"><i class="bi bi-printer me-1"></i>Print</button>
             </div>
         </div>
     </div>
@@ -82,11 +82,6 @@ ob_start();
     .btn {
         display: none !important;
     }
-
-     * {
-        -webkit-print-color-adjust: exact;
-        print-color-adjust: exact;
-    }
     
     .border-primary {
         border-left: none !important;
@@ -98,7 +93,9 @@ ob_start();
 
     .card {
     border: none !important;
-}
+    background: transparent !important;
+    }
+    
 
 }
 </style>

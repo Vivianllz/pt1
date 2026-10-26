@@ -18,7 +18,7 @@ ob_start();
                     <i class="bi bi-pencil-square text-primary me-2"></i>
                     Staff Form
                 </h5>
-                <small class="text-muted">Fill in the details of a staff members</small>
+                <small class="text-muted">Fill in the details of staff members</small>
             </div>
             <div class="col-auto">
                 <span class="badge bg-primary">* Required fields</span>
@@ -38,12 +38,12 @@ ob_start();
                     <input name="staff_name" id="staff_name" type="text" class="form-control" placeholder="Enter Staff Name" value="" required>
                 </div>
                 <div class="col-md-3">
-                    <label for="staff_phone" class="form-label">Phone Number<span class="text-danger" aria-hidden="true">*</span></label>
+                    <label for="staff_phone" class="form-label">Phone Number <span class="text-danger" aria-hidden="true">*</span></label>
                     <input name="staff_phone" id="staff_phone" class="form-control" placeholder="Enter Phone Number" required>
                 </div>
  
                 <div class="col-md-3">
-                    <label for="staff_email" class="form-label">Email Address<span class="text-danger">*</span></label>
+                    <label for="staff_email" class="form-label">Email Address <span class="text-danger">*</span></label>
                     <input name="staff_email" id="staff_email" type="email" class="form-control" placeholder="Enter Email Address" required>
                 </div>
 

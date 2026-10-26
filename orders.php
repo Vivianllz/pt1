@@ -81,12 +81,10 @@ ob_start();
             </div>
             <div class="col-auto">
                 <span class="badge bg-success">Total: 1 items</span>
-                    <a href="invoice.php" class="text-decoration-none text-white">
+                    <a href="invoice.php" class="text-decoration-none text-white"></a>
             </div>
         </div>
- 
         <hr>
- 
         <div class="table-responsive">
             <table class="table table-striped table-hover">
                 <thead class="table-dark">
